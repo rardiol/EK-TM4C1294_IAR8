@@ -1,0 +1,5 @@
+# ninja log v5
+6	352	6359106794033713	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_main_sp/Debug/Obj/startup_TM4C1294.o	eea8c48426e53f11
+0	507	6359106795348802	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	6bd6c8f7ee5dc9de
+356	516	6359106795348802	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_main_sp/Debug/Obj/system_TM4C1294_TW.o	ea063eef97149c37
+523	1227	6359106802523351	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	5dfc33cc2ba92b74
