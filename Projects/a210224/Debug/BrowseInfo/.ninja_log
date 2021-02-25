@@ -1,5 +1,16 @@
 # ninja log v5
-1	399	6359129300000000	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/main.xcl	a59fdf2ef3791dfc
-404	464	6359129302738490	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/main.pbi	10be3afd357b23da
-467	488	6359129302959889	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/a210224.pbd	a3ea2ded092692e3
-492	1010	6359129307973014	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/a210224.pbw	7d46c46e094ab353
+3	148	6359203004060217	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/system_TM4C1294_TW.pbi	925401204417aaec
+200	1097	6359203013376286	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/a210224.pbw	7d46c46e094ab353
+153	228	6359201371108026	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/main.pbi	10be3afd357b23da
+1	148	6359201370000000	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/main.xcl	5f10091d4ef27446
+7	135	6359201370000000	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/system_TM4C1294_TW.xcl	a81745437fcd4a62
+151	196	6359203004685194	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/a210224.pbd	91cc3f2c42da3a41
+1	68	6359203115624339	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/main.pbi	10be3afd357b23da
+72	120	6359203116133192	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/a210224.pbd	91cc3f2c42da3a41
+125	1006	6359203124761003	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/a210224.pbw	7d46c46e094ab353
+2	68	6359203782596786	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/main.pbi	10be3afd357b23da
+72	119	6359203783130671	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/a210224.pbd	91cc3f2c42da3a41
+123	1006	6359203791669734	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/a210224.pbw	7d46c46e094ab353
+1	76	6359209706887797	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/main.pbi	10be3afd357b23da
+79	129	6359209707512825	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/a210224.pbd	91cc3f2c42da3a41
+133	1043	6359209716196897	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/a210224/Debug/BrowseInfo/a210224.pbw	7d46c46e094ab353

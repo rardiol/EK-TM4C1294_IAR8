@@ -2842,16 +2842,19 @@
         </settings>
     </configuration>
     <file>
+        <name>$PROJ_DIR$\driverlib.a</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\src\main.cpp</name>
     </file>
     <file>
         <name>$PROJ_DIR$\startup_TM4C1294.s</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\system_TM4C1294.c</name>
+        <name>$PROJ_DIR$\system_TM4C1294.h</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\system_TM4C1294.h</name>
+        <name>$PROJ_DIR$\system_TM4C1294_TW.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\TM4C1294NCPDT.h</name>
