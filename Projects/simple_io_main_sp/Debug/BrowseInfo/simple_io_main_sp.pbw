@@ -12485,7 +12485,7 @@
     "display": "void SysTick_Handler(void)",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "22",
       "path": "C:\\Users\\Ardissone\\ric\\EK-TM4C1294_IAR8\\Projects\\simple_io_main_sp\\src\\simple_io_main_sp.c"
     },
     "name": "SysTick_Handler",
@@ -12499,10 +12499,38 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "27",
       "path": "C:\\Users\\Ardissone\\ric\\EK-TM4C1294_IAR8\\Projects\\simple_io_main_sp\\src\\simple_io_main_sp.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:simple_io_main_sp.c@2165@F@main@x",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Users\\Ardissone\\ric\\EK-TM4C1294_IAR8\\Projects\\simple_io_main_sp\\src\\simple_io_main_sp.c"
+    },
+    "name": "x",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:simple_io_main_sp.c@2183@F@main@y",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "y",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\Users\\Ardissone\\ric\\EK-TM4C1294_IAR8\\Projects\\simple_io_main_sp\\src\\simple_io_main_sp.c"
+    },
+    "name": "y",
     "origin": "project_file",
     "scope": null
   },

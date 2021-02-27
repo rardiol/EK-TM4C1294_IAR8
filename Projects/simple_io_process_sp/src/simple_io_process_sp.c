@@ -8,6 +8,27 @@
 
 uint8_t LED_D1 = 0;
 
+/*
+ ex1: a pilha é diferente então não da pra ver os registradores empilhados por hw, so por sw
+ na primeira instrução R7 e LR são empilhados em MSP
+
+ex2:
+LR esta em ffed (thread mode + psp), control é zerado
+
+ex2b:
+Processamento pula pro handler
+LR vai para FFF1 (handler + MSP)
+control é zerado
+
+ex3:
+cpu register mostra ambos SPointers e as combinações de PSR, ao contrario de current cpu registers
+
+comparação:
+As pilhas aparecem diferentes pois simple_io_process roda parte na MSP e parte na PSP
+Control sempre esta zerado porque o ponto flutuate e stack pointer dentro das exceções fica desativado
+LR em simple_io_process no primeiro caso indica retorno ao modo psp em vez de msp
+*/
+
 void SysTick_Handler(void){
   LED_D1 ^= GPIO_PIN_1; // Troca estado do LED D1
   GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_1, LED_D1); // Acende ou apaga LED D1
@@ -38,8 +59,14 @@ void main(void){
 
   SysTickIntEnable();
   SysTickEnable();
+  
+  float x = 3.5;
+  float y = 1.1;
 
   while(1){
+    
+    y = y * 1.1;
+    x = x * y;
     if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) == GPIO_PIN_0) // Testa estado do push-button SW1
       GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, 0); // Apaga LED D3
     else

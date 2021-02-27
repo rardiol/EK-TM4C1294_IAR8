@@ -8,6 +8,17 @@
 
 uint8_t LED_D1 = 0;
 
+/*
+ex1
+- os 8 registradores que vão na stack. seção 8.1.2 do manual do cortex
+- r0,r1,r2,r4,r12,pc,
+
+ex2
+- control esta zerado, lr tem exc_return ffe9, return to thread mode, msp
+- control é zerado, lr vai pra fff1 (return to handler mode)
+*/
+
+
 void SysTick_Handler(void){
   LED_D1 ^= GPIO_PIN_1; // Troca estado do LED D1
   GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_1, LED_D1); // Acende ou apaga LED D1
@@ -38,8 +49,12 @@ void main(void){
 
   SysTickIntEnable();
   SysTickEnable();
+  
+  float x = 3.0;
+  float y = 2.0;
 
   while(1){
+    x = x*y;
     if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) == GPIO_PIN_0) // Testa estado do push-button SW1
       GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, 0); // Apaga LED D3
     else
