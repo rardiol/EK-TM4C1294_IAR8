@@ -14,3 +14,7 @@
 159	254	6360978065496273	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_process_sp/Debug/Exe/simple_io_process_sp.out	f18b9e7258698d25
 3	248	6360986926245428	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_process_sp/Debug/Obj/simple_io_process_sp.o	2ff6fe9ddbce8d6a
 254	353	6360986927245357	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_process_sp/Debug/Exe/simple_io_process_sp.out	f18b9e7258698d25
+2	51	6374695291376667	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_process_sp/Debug/Obj/startup_TM4C1294.o	9a0215fefeb7eee
+9	283	6374695293603206	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_process_sp/Debug/Obj/simple_io_process_sp.o	2ff6fe9ddbce8d6a
+54	309	6374695293759527	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_process_sp/Debug/Obj/system_TM4C1294_TW.o	40c99c19f0ae275a
+316	425	6374695295074589	C:/Users/Ardissone/ric/EK-TM4C1294_IAR8/Projects/simple_io_process_sp/Debug/Exe/simple_io_process_sp.out	f18b9e7258698d25
