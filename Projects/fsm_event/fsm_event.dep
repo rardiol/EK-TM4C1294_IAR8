@@ -39,6 +39,7 @@
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
             <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\fsm_matrix\src\fsm_matrix.c</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_TM4C1294.o</file>
             <file>$PROJ_DIR$\Debug\Exe\fsm_event.out</file>
         </outputs>
@@ -92,7 +93,7 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 34</file>
+                    <file> 35</file>
                 </tool>
             </outputs>
             <inputs>
@@ -107,7 +108,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 35 17</file>
+                    <file> 36 17</file>
                 </tool>
             </outputs>
         </file>
@@ -122,7 +123,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 14 28 11 30 31 5 7 34 6 2</file>
+                    <file> 14 28 11 30 31 5 7 35 6 2</file>
                 </tool>
             </inputs>
         </file>
